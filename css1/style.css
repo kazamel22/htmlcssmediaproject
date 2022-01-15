@@ -1,0 +1,401 @@
+ @font-face {
+    font-family: oswald;
+    src: url('../FONT/Oswald/Oswald-VariableFont_wght.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2,p{
+    font-family: oswald;
+}
+
+nav{
+    background-color: black;
+}
+nav a{
+    color:white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 15px ;
+}
+nav a:hover{
+    background-color: #ccc;
+    color:  black;
+}
+.lasticon{
+    float: right;
+    
+}
+.textsection{
+    text-align: center;
+    padding: 50px 0;
+}
+.textsection h1{
+font-size: 45px ;
+font-weight: 900;
+}
+.textsection p {
+    padding: 20px 0px ;
+
+}
+.textsection p span{
+    background-color: black;
+    color: white;
+    padding: 0px 5px ;
+}
+header{
+    position: relative;
+}
+header section{
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    color: white;
+    text-align: left;
+}
+header section h1 {
+ font-size: 60px ;
+ letter-spacing: 3px ;
+ padding: 20px 0px ;
+}
+header section h3{
+font-size: 45px;
+letter-spacing: 3px ;
+}
+header section button{
+    padding: 20px ;
+    background-color:rgba(160,160,160 ,0.7);
+    border: none;
+    font-weight: bold;
+}
+header section button :hover{
+    padding: 20px ;
+    background-color:rgba(160,160,160 ,0.9);
+}
+main{
+ background-color: #bfbaba;
+ height: auto;
+ overflow: auto;
+ margin-top: -5px;
+}
+main #leftside{
+    display:inline-block;
+    float: left;
+    width: 70%;
+    background-color: #bfbaba;
+    padding: 20px;
+
+}
+main #leftside article {
+background-color: white;
+padding: 0px 25px;
+margin: 20px 0px ;
+
+
+}
+
+main #leftside article h2{
+
+    text-align: center;
+}
+main #leftside article p{
+    text-align:center;
+    padding: 20px 0px ;
+}
+main #leftside article p  span{
+    color: gray;
+}
+main #leftside article .par{
+    font-family: 'open Sans';
+    text-align: left;
+    text-align: justify;
+    font-size: 18px ;
+
+}
+main #leftside article .par span{
+    font-weight: bold;
+    color: black;
+    
+}
+main #leftside article .buttonsdiv{
+    padding: 20px;
+
+}
+main #leftside article .buttonsdiv .likeb{
+    float: left;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px ;
+    color: black;
+    font-weight: bold;
+
+}
+main #leftside article .buttonsdiv .likeb:hover{
+    background-color: gray;
+    border-color: gray;
+}
+
+
+main #leftside article .buttonsdiv .Repb{
+    float: right;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+main #leftside article .buttonsdiv .Repb:hover{
+    background-color: lightgray;
+    color: black;
+}
+main #leftside article .buttonsdiv .Repb span{
+    background-color: white;
+    color: black;
+    padding: 0px 5px ;
+
+
+}
+
+main #leftside article .articlefooter{
+    padding: 20px 0px ;
+
+}
+main #leftside article .articlefooter  .line{
+    border-bottom: 1px solid gray;
+    padding: 20px ;
+}
+main #leftside article .articlefooter .imgd{
+
+    float: left;
+    width: 10%;
+    display: inline-block;
+
+}
+main #leftside article .articlefooter .textd{
+    float: right;
+    width: 90%;
+    display: inline-block;
+    
+    
+}
+main #leftside article .articlefooter .textd p{
+    text-align: left;
+    padding: 10px 30px  ;
+}
+
+main #rightside{
+    display:inline-block;
+    float: right;
+    width: 30%;
+    background-color: #bfbaba;
+    padding: 20px;
+
+}
+main #rightside #girlsection{
+    padding: 20px 0px ;
+}
+main #rightside #girlsection div {
+background-color: black;
+color: white;
+padding: 15px  ;
+margin-top: -10px ;
+}
+main #rightside #girlsection div p  {
+    padding-bottom: 15px;
+}
+main #rightside article{
+margin-bottom: 20px ;
+}
+main #rightside article .articleheading{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+main #rightside article .articlebody{
+    
+    background-color: white;
+    height: auto;
+    overflow: auto;
+}
+main #rightside article  .b1 .articledes{
+padding: 10px;
+}
+main #rightside article  .b1 .articledes imgdes{
+   float: left;
+   width: 15%;
+}
+main #rightside article .b1 .articledes  .textdes{
+   float: right;
+   width: 85%;
+   padding: 0px 20px ;
+}
+main #rightside article .b1 .articledes :hover {
+    background-color: #ccc;
+}
+main #rightside article .b2{
+    padding: 20px ;
+}
+main #rightside article .b2 p{
+    text-align: center;
+    background-color: #ccc;
+    padding: 50px ;
+
+} 
+main #rightside article .b3{
+    padding: 20px ;
+}
+main #rightside article .b3 span{
+    background-color: #ccc;
+    margin: 10px 5px ;
+    display: inline-block;
+    padding: 0px 5px ;
+}
+main #rightside article .b3 .firspan{
+    background-color: black;
+    color: #ffffff;
+}
+main #rightside article .b4{
+    padding: 10px  ;
+} 
+main #rightside article .b4 img{
+    display: inline-block;
+    padding: 5px;
+}
+main #rightside article .b5{
+    padding: 20px;
+    font-size: 25px;
+}
+main #rightside article .b5 i{
+    
+}
+main #rightside article .b5 i:hover{
+    color: gray;
+}
+main #rightside article .b6{
+    padding: 20px ;
+}
+main #rightside article .b6 form{
+
+}
+main #rightside article .b6 form label{
+    display: block;
+    width: 100%;
+
+}
+main #rightside article .b6 form input{
+    display: block;
+    width: 100%;
+    margin: 15px 0px ;
+    padding: 10px;
+}
+main #rightside article .b6 form button{
+    display: block;
+    width: 100%;
+    background-color: #f44336;
+    text-align: center;
+    color: white;
+    padding: 10px ;
+    border: none;
+}
+
+.c1{
+    clear: both;
+    content: "";
+}
+
+
+footer{
+    background-color: #616161;
+    color: white;
+    padding: 30px ;
+    border: none;
+}
+footer .b1{
+    background-color: black;
+    color: white;
+    padding: 20px ;
+    border: none;
+    text-decoration: none;
+}
+footer p {
+    font-family: 'open sans';
+    padding: 40px 0;
+    font-size: 18px;
+}
+footer p a {
+    color: white;
+}
+.subscribe{
+    position: fixed;
+    top: 0px ;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160,160,160,0.6);
+    display:none;
+}
+.subscribeform{
+    background-color: white;
+    padding: 30px;
+    width: 60%;
+    margin: 150px auto;
+    position: relative;
+}
+.subscribeform h2, .subscribeform label, .subscribeform input,.subscribeform subbut {
+    display: block;
+    width: 100%;
+}
+.subscribeform subbut{
+    display: block;
+    width: 100%;
+    background-color: #f44336;
+    text-align: center;
+    color: white;
+    padding: 10px ;
+    border: none;
+
+}
+.subscribeform subbut:hover{
+background-color: #ccc;
+color: black;
+}
+.subscribeform input{
+    padding: 10px ;
+    margin: 10px 0px ;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px ;
+    padding: 5px 10px ;
+    font-weight: 900;
+    font-size: 25px ;
+    border: none;
+    background-color: white;
+}
+.close:hover{
+    background-color: #ccc;
+}
+@media screen and (max-width:600px){
+}
+    header section{
+    
+        top: 20%;
+
+    }
+    header section h1 {
+     font-size: 40px ;
+    }
+    header section h3{
+    font-size: 30px;
+    
+    }
+    main #leftside,main#rightside{
+        display:block;
+        float: none;
+        width: 100%;
+    
+    }
