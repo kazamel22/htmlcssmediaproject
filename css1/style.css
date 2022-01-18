@@ -379,23 +379,3 @@ color: black;
 .close:hover{
     background-color: #ccc;
 }
-@media screen and (max-width:600px){
-}
-    header section{
-    
-        top: 20%;
-
-    }
-    header section h1 {
-     font-size: 40px ;
-    }
-    header section h3{
-    font-size: 30px;
-    
-    }
-    main #leftside,main#rightside{
-        display:block;
-        float: none;
-        width: 100%;
-    
-    }
